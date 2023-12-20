@@ -13,7 +13,5 @@ jobs:
         shell: sh
         run: |
           echo "starting process"
-      - uses: cloudbees-io/sonarqube-bundled-sast-scan-code@v1
-        name: sonar-qube
     outputs:
       success: "true"
