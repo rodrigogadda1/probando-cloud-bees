@@ -12,6 +12,6 @@ import lombok.NoArgsConstructor;
 public class ErrorDTO {
 	
 	private String code;
-	private String detail; 
+	private String detail;  
 	
 }
