@@ -13,5 +13,6 @@ public class ErrorDTO {
 	
 	private String code;
 	private String detail;
+	private String noImporta;
 	
 }
