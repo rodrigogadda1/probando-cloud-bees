@@ -15,6 +15,5 @@ jobs:
           echo "starting process"
       - uses: cloudbees-io/sonarqube-bundled-sast-scan-code@v1
         name: sonar-qube
-        kind: scan
     outputs:
       success: "true"
