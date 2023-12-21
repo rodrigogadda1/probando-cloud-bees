@@ -16,5 +16,6 @@ public class ProductoResponseDTO {
 	private String descripcion;
 	private Double precio;
 	private Long customerId;
+	private int cantidad;
 	
 }
