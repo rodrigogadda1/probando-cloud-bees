@@ -8,10 +8,13 @@ on:
 jobs:
   build:
     steps:
-      - uses: docker://golang:1.20.3-alpine3.17
+      - uses: docker://openjdk:17-jdk-slim
         name: Say hello
         shell: sh
         run: |
           echo "starting process"
+      - uses: cloudbees-io/sonarqube-bundled-sast-scan-code@v1
+        name: scan
+        kind: scan
     outputs:
       success: "true"
